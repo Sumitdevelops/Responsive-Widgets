@@ -12,7 +12,7 @@ formData.append("image", file);
 
 setLoading(true);
 try {
-  const res = await fetch("http://localhost:4000/upload", {
+  const res = await fetch("https://responsive-widgets-backend.onrender.com", {
     method: "POST",
     body: formData,
   });
